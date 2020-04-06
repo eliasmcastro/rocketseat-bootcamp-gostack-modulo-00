@@ -35,6 +35,7 @@
   - Extensões
     - Tema do Dracula Official
     - Material Icon Theme
+    - Live Server
     - Rocketseat ReactJS
     - Rocketseat React Native
   - Fontes
