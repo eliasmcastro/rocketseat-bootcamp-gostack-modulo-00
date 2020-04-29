@@ -35,21 +35,29 @@
   - Extensões
     - Tema do Dracula Official
     - Material Icon Theme
+    - Color Highlight
+    - EditorConfig for VS Code
+    - ESLint
+    - Prettier - Code formatter
+    - Nunjucks
     - Live Server
     - Rocketseat ReactJS
     - Rocketseat React Native
   - Fontes
     - [Fira Code](https://github.com/tonsky/FiraCode)
   - Configurações
-    - CTRL + P -> settings.json
-    - "editor.fontFamily": "Fira Code" (fonte do textp)
+    - CTRL + SHIFT + P -> Open Settings (JSON)
+    - "editor.fontFamily": "Fira Code" (fonte do texto)
     - "editor.fontSize": 14 (tamanho do texto)
     - "editor.tabSize": 2 (tamanho da indentação)
     - "editor.lineHeight": 24 (tamanho das linhas)
     - "editor.fontLigatures": true (personaliza sinais de == !=)
     - "editor.renderLineHighlight": "gutter" (deixa a linha selecionada somente a esquerda)
+    - "editor.formatOnSave": true, (quando o arquivo é salvo ele é formatado e indentado automaticamente)
     - "explorer.compactFolders": false (para não deixar pastas vazias na mesma linha)
     - "terminal.integrated.fontSize": 14 (tamanho da fonte no terminal)
+    - "emmet.syntaxProfiles": {"javascript": "jsx"} (autocomplete para arquivos .jsx)
+    - "emmet.includeLanguages": {"javascript": "javascriptreact"} (autocomplete para react)
     - "extensions.ignoreRecommendations": true (ignora as recomendações de extensões do próprio Visual Studio Code)
     - "workbench.startupEditor": "newUntitledFile" (ao abrir o Visual Studio Code ele abre um arquivo em branco)
     - "workbench.editor.labelFormat": "short" (mostra o nome da pasta onde o arquivo aberto está)
